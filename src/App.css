@@ -3,7 +3,7 @@
 }
 
 .container {
-    background-color: #c00025;
+    background-color: #AF1E39;
     width: 100%;
     max-width: 550px;
     border-radius: 15px;
@@ -68,14 +68,26 @@
     margin: 5px auto;
     border-radius: 60px;
     padding: 5px;
+    font-size: 60px;
+    color:white;
+    text-align:right;
+    display:flex;
+    align-items:center;
+    justify-content: flex-end;
 }
+
+.data p{
+    padding-right: 20px;
+}
+
+
 
   .left{
       display:flex;
       flex-direction:column;
       width: 75%;
       padding:0;
-      margin:0;
+      margin-left: 30px;
   }
   .right{
       display:flex;
@@ -83,10 +95,24 @@
       width:25%;
       padding:0;
       margin:0;
+      margin-right: 25px;
   }
 
   .buttonContainer{
       display:flex;
-      justify-content: space-around;
+      padding:0;
+      margin:0;
   }
+
+  .logo{
+      padding: 20px;
+  }
+
+  button.number_button:nth-child(10){
+      width: 220px;
+      border-radius: 50px;
+      margin-left: 10px;
+      margin-right: 10px;
+  }
+
 
